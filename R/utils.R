@@ -1,7 +1,7 @@
 .get_dependency <- function(script, cdn){
 
   if(isTRUE(cdn))
-    path <- c(href = "https://cdn.rawgit.com/donmccurdy/aframe-physics-system/v3.2.0/dist/")
+    path <- c(href = "https://cdn.jsdelivr.net/gh/donmccurdy/aframe-physics-system@v3.2.0/dist/")
   else
     path <- c(file = system.file("aphysics", package = "aphysics"))
 
